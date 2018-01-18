@@ -1,0 +1,16 @@
+{
+  "name": "docker-file-example-server",
+  "version": "1.0.0",
+  "description": "Server example",
+  "repository": "github:peteruithoven/docker-workshop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Peter Uithoven",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
